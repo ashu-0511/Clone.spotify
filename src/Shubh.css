@@ -1,0 +1,48 @@
+.show_all_li {
+    color: rgb(143, 143, 143);
+
+}
+
+audio::-webkit-media-controls-panel {
+    color: transparent !important;
+
+}
+
+audio {
+    width: 232px;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+
+.chqs {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.songs {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    float: right;
+    clear: right;
+    gap: 2px;
+}
+
+.main-songs {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+}
+
+.text {
+    font-size: 20px;
+    margin: 15px;
+    color: white;
+}

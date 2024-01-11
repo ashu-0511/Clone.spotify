@@ -1,0 +1,57 @@
+.home_search_div
+{
+    width: 89%;
+    /* height: 240px; */
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 27px;
+    cursor: pointer;
+}
+.spotify_text
+{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    gap: 4px;
+    width: 136px;
+    align-items: center;
+}
+ #spoti_icon{
+    color: white;
+    font-size: 27px;
+}
+.home__search_ul
+{
+    width: 91%;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.home__search_ul li
+ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 21px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.seacrh_li
+{
+    color: rgb(142, 136, 136);
+}
+.seacrh_li:hover {
+    color: white;
+    opacity: 0.9;
+    transition: 0.8s;
+
+}
+.home_li
+{
+    color: white;
+}
+

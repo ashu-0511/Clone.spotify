@@ -1,0 +1,67 @@
+.main_banner {
+    padding-left: 25px;
+    /* height: 66px; */
+    padding-right: 58px;
+    background-color: rgb(31 30 30);
+}
+
+/* .spotiylist_div
+{
+    height: 66px;
+} */
+.spotiylist_showall {
+    display: flex;
+    justify-content: space-between;
+    height: 66px;
+    list-style-type: none;
+    align-items: center;
+}
+
+/*  */
+.spotify_li {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: initial;
+    color: white;
+}
+
+.show_all_li {
+    color: rgb(143, 143, 143);
+
+}
+
+audio::-webkit-media-controls-panel {
+    color: transparent !important;
+
+}
+
+audio {
+    width: 232px;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+
+.chq {
+    height: 232px;
+    width: 232px;
+    border-radius: 50%;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.main-songs {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+}

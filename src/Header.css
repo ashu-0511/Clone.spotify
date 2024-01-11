@@ -1,0 +1,160 @@
+/*     border: -2px solid red;
+    border-radius: 20px;
+    background-color: red;
+    height: 20rem;
+ */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.spotify_header {
+  width: 100%;
+  /* float: right; */
+  background-color: #161414;
+  height: 65px;
+  position: sticky;
+  top: 0px;
+}
+
+.sign_login {
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  padding-right: 50px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.sign_btn {
+  color: gray;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login_btn {
+  border: 1px solid white;
+  border-radius: 49px;
+  color: black;
+  background: white;
+  padding: 8px;
+  text-decoration: none;
+  /* font-size: 17px; */
+  font-weight: 600;
+  width: 85px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+
+
+.sign_btn:hover {
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  /* opacity: 0.6; */
+  transition: 0.9s;
+  cursor: pointer;
+}
+
+.login_h3 {
+  width: 80px;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+
+}
+
+.login_h3:hover {
+  width: 85px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+
+.login_btn:hover {
+  border: 1px solid white;
+  border-radius: 49px;
+  background: rgb(229, 226, 226);
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.sign_login_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+.arrow_design {
+  display: flex;
+  gap: 10px;
+  padding-left: 58px;
+
+}
+
+.arrow_design p {
+  width: 18px;
+}
+
+.arrow {
+  border: solid rgb(222, 214, 214);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.right {
+  transform: rotate(-45deg);
+  /* -webkit-transform: rotate(-45deg); */
+  height: 8px;
+  width: 8px;
+
+}
+
+.left {
+  transform: rotate(135deg);
+  /* -webkit-transform: rotate(135deg); */
+  height: 8px;
+  width: 8px;
+
+}
+
+/* arrow hover effect */
+
+.arrow:hover {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right:hover {
+  transform: rotate(-45deg);
+  /* -webkit-transform: rotate(-45deg); */
+  height: 9px;
+  width: 9px;
+}
+
+.left:hover {
+  transform: rotate(135deg);
+  /* -webkit-transform: rotate(135deg); */
+  height: 9px;
+  width: 9px;
+}
+
+.show_all_li:hover,
+.spotify_li:hover {
+  text-decoration: underline;
+}

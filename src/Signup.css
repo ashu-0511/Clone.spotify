@@ -1,0 +1,95 @@
+.container {
+    background-color: black;
+    color: white !important;
+    font-size: 20px;
+    height: 600px;
+
+}
+
+.division {
+    background-color: black;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .pass label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.para {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 250px;
+    margin: 22px 0px 10px 0px;
+    padding: 6px 8px 6px 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.user {
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+/* .division:hover {
+    cursor: pointer;
+    box-shadow: 8px 10px 8px 10px;
+    color: beige;
+
+} */
+
+a:hover {
+    color: green;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.icon {
+    width: 35px;
+}
+
+.otherways {
+    margin-top: 10px;
+}
+
+.acc {
+    margin-bottom: 5px;
+    font-size: 10px;
+}

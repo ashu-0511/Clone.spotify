@@ -1,0 +1,192 @@
+.your_library_main {
+    background-color: #161414;
+}
+
+.your_library {
+    /* display: flex; */
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 18px;
+}
+
+.your_text {
+    color: gray;
+    cursor: pointer;
+    width: 170px;
+}
+
+.your_library :hover {
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.7s;
+}
+
+.your_text i {
+    padding-left: 22px;
+    padding-right: 18px;
+}
+
+.creare_your_first_div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgb(31 30 30);
+    height: 115px;
+    border-radius: 20px;
+}
+
+.creare_your_first_div p,
+h3 {
+    color: white;
+}
+
+.lets_find_div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgb(31 30 30);
+    height: 140px;
+    border-radius: 20px;
+}
+
+.lets_find_div p,
+h3 {
+    color: white;
+}
+
+.scrol_div_left {
+    height: 155px;
+    overflow-y: scroll;
+}
+
+.Create_Playlist_link {
+    border: 1px solid white;
+    border-radius: 24px;
+    color: black;
+    background: white;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    width: 120px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Create_Playlist_link:hover {
+    border: 1px solid white;
+    border-radius: 24px;
+    color: black;
+    background: rgb(102, 102, 102);
+    padding: 9px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    width: 106px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* .Create_Playlist_link{
+    color: black;
+} */
+.browse_prodcasts_link {
+    border: 1px solid white;
+    border-radius: 24px;
+    color: black;
+    background: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    width: 130px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.p_tag_let {
+    font-weight: bold;
+}
+
+.btm_last_i {
+
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 24px;
+    color: #6c6c70;
+    font-size: 14px;
+    margin-top: 38px;
+}
+
+.btm_last_ii {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 10px;
+    color: #6c6c70;
+    font-size: 14px
+}
+
+.last_left_btm {
+    margin-top: 8px;
+    color: #6c6c70;
+    font-size: 14px;
+}
+
+.header_left_btm_text {
+    margin-bottom: 40px;
+}
+
+.english_icon_div {
+    border: 1px solid white;
+    border-radius: 24px;
+    color: black;
+    background: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    width: 98px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 35px;
+}
+
+#earth_icon {
+    padding-right: 5px;
+}
+
+.inner_text {
+    color: white;
+}
+
+.your_text {
+    position: relative;
+    display: inline-block;
+
+}
+
+.your_text[data-title]:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    top: -100%;
+    left: 40px;
+    z-index: 100;
+    font-size: 14px;
+    color: white;
+    width: 145px;
+    font-weight: 400;
+    padding: 7px;
+    background-color: #3d3d3f;
+    border-radius: 14px;
+
+}

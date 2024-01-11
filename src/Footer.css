@@ -1,0 +1,43 @@
+.main_footer_div
+{
+    background-color:  #161414;
+    height: 480px;
+}
+.Footer
+{
+     gap: 100px;
+     display:  flex;
+     justify-content: center;
+     padding-top: 30px;
+     color: white;
+}  
+.footer_sec_iv
+{
+    width: 210px;
+}
+.footer_sec_iv ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.list_ii,.list_iii,.list_i
+{
+    list-style-type: none;
+}
+.use_ful_link_child
+{
+    color: gray;
+}
+.use_ful_link_child:hover
+{
+    color: white;
+    text-decoration: underline;
+    opacity: 0.9;
+    transition: 0.7s;
+}
+.list_i,.list_ii,.list_iii
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
