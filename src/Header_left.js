@@ -12,7 +12,7 @@ export default function Header_left() {
         <br />
         <ul className="home__search_ul">
           <Link to="/"  > <li className='home_li'><i class="fa-solid fa-house fa-xl"></i>Home</li></Link>
-          <li className='seacrh_li'><i class="fa-solid fa-magnifying-glass fa-xl"></i>search</li>
+          <li className='seacrh_li'><i class="fa-solid fa-magnifying-glass fa-xl"></i >search</li>
         </ul>
       </div>
 
